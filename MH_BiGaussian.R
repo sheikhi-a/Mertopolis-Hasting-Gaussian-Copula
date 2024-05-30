@@ -1,4 +1,3 @@
-rm(list=ls())
 library(VineCopula)
 genY <- function (rho, N){ #Draw correlated normals
   X1 = rnorm(N)
